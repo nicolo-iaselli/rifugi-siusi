@@ -308,13 +308,14 @@ dialog.lightbox form button { font: inherit; font-size: 0.875rem; padding: 4px 1
 
   // Map: tile servers are blocked inside the artifact, so it is drawn from the project's own GeoJSON
   if (!window.L) return;
-  const map = L.map("map", { scrollWheelZoom: false, zoomSnap: 0.25, minZoom: 8, maxZoom: 13 });
+  // A fixed overview: no pan or zoom, so swiping over it scrolls the page; pins stay tappable
+  const map = L.map("map", { zoomControl: false, dragging: false, touchZoom: false, doubleClickZoom: false, scrollWheelZoom: false, boxZoom: false, keyboard: false, zoomSnap: 0.25 });
   map.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a>');
   map.attributionControl.addAttribution("Natural Earth");
   // The view must exist before any polyline is added, or Leaflet's clipping throws
   const home = L.latLngBounds([[o.lat, o.lng], ...places.map(r => [r.lat, r.lng]), ...(page.peaks || []).map(p => [p.lat, p.lng])]);
   map.fitBounds(home, { padding: [30, 30] });
-  map.setMaxBounds(home.pad(1.2));
+  map.on("resize", () => map.fitBounds(home, { padding: [30, 30] }));
   const provClass = { Bozen: "prov-bozen", Trento: "prov-trento", Belluno: "prov-belluno", Tirol: "prov-tirol" };
   L.geoJSON(provinces, { interactive: false, style: f => ({ className: `prov ${provClass[f.properties.name] || ""}`, fill: true, fillOpacity: 1 }) }).addTo(map);
   L.geoJSON(rivers, { interactive: false, style: { className: "river", weight: 2 } }).addTo(map);
@@ -367,7 +368,6 @@ dialog.lightbox form button { font: inherit; font-size: 0.875rem; padding: 4px 1
     const r = places.find(x => x.id === b.dataset.show);
     setActive(r.id);
     if (!wide.matches) document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "center" });
-    map.flyTo([r.lat, r.lng], 12, { duration: 0.8 });
     pins[r.id].openTooltip();
   }));
 
