@@ -699,6 +699,20 @@
         ],
         "n": 8
       }
-    ]
+    ],
+    "relief": {
+      "src": "assets/relief.jpg",
+      "bounds": [
+        [
+          46.195042,
+          10.898438
+        ],
+        [
+          46.920255,
+          12.128906
+        ]
+      ],
+      "credit": "Rilievo: AWS Terrain Tiles (SRTM, EU-DEM)"
+    }
   }
 }

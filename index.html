@@ -33,6 +33,8 @@
   --map-water: #8db6d3;
   --map-road: #cf9d47;
   --map-label: #857d70;
+  --relief-opacity: 0.55;
+  --relief-blend: multiply;
   --focus: #1f6fb2;
 
   --font-head: "Barlow Condensed", "Arial Narrow", sans-serif;
@@ -43,7 +45,7 @@
     --snow: #131916; --paper: #1a211d; --ink: #e6eae5; --muted: #9ca79f; --rule: #2c3631;
     --open: #6cc08f; --closed: #ec7b7b; --check: #e0b45c;
     --map-bg: #161d19; --map-bz: #1c2621; --map-tn: #25241e; --map-bl: #23212b; --map-tirol: #1a2226;
-    --map-border: #5c625a; --map-water: #4d7c9a; --map-road: #9a7a3d; --map-label: #8f978f; --focus: #7db7ea;
+    --map-border: #5c625a; --map-water: #4d7c9a; --map-road: #9a7a3d; --map-label: #8f978f; --relief-opacity: 0.7; --relief-blend: overlay; --focus: #7db7ea;
     color-scheme: dark;
   }
 }
@@ -51,7 +53,7 @@
   --snow: #131916; --paper: #1a211d; --ink: #e6eae5; --muted: #9ca79f; --rule: #2c3631;
   --open: #6cc08f; --closed: #ec7b7b; --check: #e0b45c;
   --map-bg: #161d19; --map-bz: #1c2621; --map-tn: #25241e; --map-bl: #23212b; --map-tirol: #1a2226;
-  --map-border: #5c625a; --map-water: #4d7c9a; --map-road: #9a7a3d; --map-label: #8f978f; --focus: #7db7ea;
+  --map-border: #5c625a; --map-water: #4d7c9a; --map-road: #9a7a3d; --map-label: #8f978f; --relief-opacity: 0.7; --relief-blend: overlay; --focus: #7db7ea;
   color-scheme: dark;
 }
 
@@ -144,6 +146,8 @@ h1 { margin: 0; font-family: var(--font-head); font-weight: 700; font-size: clam
 .leaflet-bar { border: 1px solid var(--rule) !important; box-shadow: none !important; }
 .leaflet-tooltip { background: var(--paper); color: var(--ink); border: 1px solid var(--rule); font-family: var(--font-body); font-weight: 600; font-size: 0.8125rem; box-shadow: none; }
 .leaflet-tooltip-top::before { border-top-color: var(--rule); }
+/* Blend on the pane itself: panes are separate stacking contexts, so a blend inside one has no backdrop */
+.leaflet-relief-pane { mix-blend-mode: var(--relief-blend); opacity: var(--relief-opacity); pointer-events: none; }
 .prov { fill-opacity: 1; stroke: var(--map-border); stroke-width: 1.2; stroke-dasharray: 5 4; }
 .prov-bozen { fill: var(--map-bz); }
 .prov-trento { fill: var(--map-tn); }
@@ -317,7 +321,14 @@ dialog.lightbox form button { font: inherit; font-size: 0.875rem; padding: 4px 1
   map.fitBounds(home, { padding: [30, 30] });
   map.on("resize", () => map.fitBounds(home, { padding: [30, 30] }));
   const provClass = { Bozen: "prov-bozen", Trento: "prov-trento", Belluno: "prov-belluno", Tirol: "prov-tirol" };
-  L.geoJSON(provinces, { interactive: false, style: f => ({ className: `prov ${provClass[f.properties.name] || ""}`, fill: true, fillOpacity: 1 }) }).addTo(map);
+  // Panes: region fills, then the relief (multiplied over them), then lines and pins in the default panes
+  map.createPane("base").style.zIndex = 300;
+  map.createPane("relief").style.zIndex = 350;
+  L.geoJSON(provinces, { pane: "base", interactive: false, style: f => ({ className: `prov ${provClass[f.properties.name] || ""}`, fill: true, fillOpacity: 1 }) }).addTo(map);
+  if (page.relief) {
+    L.imageOverlay(page.relief.src, page.relief.bounds, { pane: "relief", interactive: false }).addTo(map);
+    map.attributionControl.addAttribution(page.relief.credit);
+  }
   L.geoJSON(rivers, { interactive: false, style: { className: "river", weight: 2 } }).addTo(map);
   L.geoJSON(roads, { interactive: false, style: { className: "road", weight: 2.5 } }).addTo(map);
 
