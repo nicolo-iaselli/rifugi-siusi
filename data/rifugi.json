@@ -1,0 +1,704 @@
+{
+  "origin": {
+    "name": "Siusi allo Sciliar",
+    "lat": 46.5436,
+    "lng": 11.5617,
+    "name_de": "Seis am Schlern",
+    "altitude_m": 1000
+  },
+  "source_article": "https://partodamilano.com/rifugi-spettacolari-montagna/",
+  "rifugi": [
+    {
+      "id": "jimmi-hutte",
+      "n": 1,
+      "name": "Jimmi Hütte",
+      "area": "Passo Gardena",
+      "province": "BZ",
+      "lat": 46.5564928,
+      "lng": 11.8103844,
+      "google_place_id": "ChIJpRbVUHoVeEcRwB4Gf84zkO8",
+      "website": "http://jimmihuette.com/",
+      "drive_km": 40,
+      "drive_min": 50,
+      "access": "~15 min a piedi dal Passo Gardena (inverno: seggiovia Frara)",
+      "color": "#d1495b",
+      "thumbnail": "assets/thumbnails/jimmi-hutte.jpg",
+      "access_short": "15 min a piedi dal passo",
+      "altitude_m": 2220,
+      "tagline": "Baita tutta in legno sopra il Passo Gardena",
+      "pick_if": "vuoi l'atmosfera da baita classica e il viaggio più corto.",
+      "highlights": [
+        "Interni interamente in legno e una grande vetrata che incornicia le Dolomiti: l'atmosfera scalda appena entri.",
+        "Cucina regionale con tocchi internazionali. Il conto è da ristorante curato, ma le porzioni sono abbondanti.",
+        "Terrazza panoramica al sole, perfetta per restare fuori dopo pranzo."
+      ],
+      "good_to_know": [
+        "È quasi sempre pieno: prenota il tavolo, altrimenti si aspetta.",
+        "Aperto tutti i giorni dalle 9 alle 17, d'estate e d'inverno."
+      ],
+      "photo": "assets/photos/jimmi-hutte.jpg",
+      "photo_alt": "Sala in legno con panche rosse e una grande finestra sulle Dolomiti innevate",
+      "photo_credit": "partodamilano.com"
+    },
+    {
+      "id": "fredarola",
+      "n": 2,
+      "name": "Rifugio Fredarola",
+      "area": "Canazei",
+      "province": "TN",
+      "lat": 46.4774437,
+      "lng": 11.8146811,
+      "google_place_id": "ChIJX3Nw-G1qeEcRCbbXSlp0vH4",
+      "website": "http://www.fredarola.it/",
+      "drive_km": 45,
+      "drive_min": 60,
+      "access": "Funivia Alba–Col dei Rossi (~5 min), poi ~1 km a piedi lungo la pista. D'estate si segue il sentiero Vièl del Pan.",
+      "color": "#edae49",
+      "thumbnail": "assets/thumbnails/fredarola.jpg",
+      "access_short": "cabinovia Pecol + funivia Col dei Rossi",
+      "altitude_m": 2370,
+      "tagline": "Sul giro del Sellaronda, con la Marmolada di fronte",
+      "pick_if": "vuoi fermarti a dormire in quota (e fare un tuffo in piscina).",
+      "highlights": [
+        "Carni frollate alla griglia, pizza dal forno a legna e, per festeggiare, ostriche e champagne.",
+        "Camere e suite rinnovate nel 2023: si può passare la notte a 2.370 m.",
+        "Piscina interna collegata a una infinity pool esterna, più una sauna finlandese all'aperto."
+      ],
+      "good_to_know": [
+        "Oggi si chiama Fredarola Harbor ed è anche un piccolo hotel con spa.",
+        "Dalla cima del Col dei Rossi si arriva anche con gli sci, scendendo verso Arabba."
+      ],
+      "photo": "assets/photos/fredarola.jpg",
+      "photo_alt": "Terrazza con divanetti e vetri paravento affacciata sulle montagne innevate",
+      "photo_credit": "partodamilano.com"
+    },
+    {
+      "id": "col-alt",
+      "n": 3,
+      "name": "Rifugio Col Alt",
+      "area": "Corvara",
+      "province": "BZ",
+      "lat": 46.5524615,
+      "lng": 11.8860658,
+      "google_place_id": "ChIJQXPp8Bw_eEcRjxS_jaImfdU",
+      "website": "http://www.rifugiocolalt.it/",
+      "drive_km": 50,
+      "drive_min": 70,
+      "access": "Cabinovia Col Alt da Corvara (~10 min)",
+      "color": "#00798c",
+      "thumbnail": "assets/thumbnails/col-alt.jpg",
+      "access_short": "cabinovia Col Alt (~10 min)",
+      "altitude_m": 2000,
+      "tagline": "Cucina da guida, direttamente sulle piste",
+      "pick_if": "vuoi un pranzo da guida gastronomica senza prezzi da stellato.",
+      "highlights": [
+        "Piatti altoatesini della tradizione accanto a proposte creative, segnalati da Michelin, Gambero Rosso, L'Espresso e Touring.",
+        "Prezzi nella norma per la qualità che offre.",
+        "Un pezzo di storia: qui nel 1947 è arrivata la prima seggiovia d'Italia. Oggi si sale con una cabinovia da 8 posti."
+      ],
+      "good_to_know": [
+        "Solo pranzo e solo su prenotazione: tel. +39 0471 836324.",
+        "Di solito aperto da inizio dicembre a inizio aprile e da fine giugno a settembre."
+      ],
+      "photo": "assets/photos/col-alt.jpg",
+      "photo_alt": "Piatto di carne glassata con purè e cavolo rosso",
+      "photo_credit": "partodamilano.com"
+    },
+    {
+      "id": "piz-boe",
+      "n": 4,
+      "name": "Piz Boè Alpine Lounge",
+      "area": "Corvara",
+      "province": "BZ",
+      "lat": 46.5266027,
+      "lng": 11.8623958,
+      "google_place_id": "ChIJ46fyWHg_eEcReej85K9JFaA",
+      "website": "https://www.boealpinelounge.it/",
+      "drive_km": 50,
+      "drive_min": 70,
+      "access": "Cabinovia Boè da Corvara (~10 min)",
+      "color": "#30638e",
+      "thumbnail": "assets/thumbnails/piz-boe.jpg",
+      "access_short": "cabinovia Boè (~10 min)",
+      "altitude_m": 2200,
+      "tagline": "Vetro, legno e design minimal sopra Corvara",
+      "pick_if": "cerchi l'occasione speciale: design, vista e cucina gourmet.",
+      "highlights": [
+        "Architettura moderna e minimal, con una vetrata di 34 metri aperta sulla Val Badia.",
+        "Al KELINA Fine Dine la tradizione altoatesina è rivisitata e presentata come in un ristorante gourmet.",
+        "Se hai fretta di tornare sulle piste c'è l'AMIRÉ Bistrot, più veloce e informale."
+      ],
+      "good_to_know": [
+        "Al Kelina prezzi e porzioni sono da ristorante gourmet, non da rifugio.",
+        "Si prenota online, per entrambi i ristoranti. Aperto d'estate e d'inverno; si sale anche a piedi."
+      ],
+      "photo": "assets/photos/piz-boe.jpg",
+      "photo_alt": "Il rifugio di vetro illuminato al tramonto, con la terrazza in legno e le Dolomiti dietro",
+      "photo_credit": "partodamilano.com"
+    }
+  ],
+  "reference_towns": [
+    {
+      "name": "Bolzano",
+      "lat": 46.498,
+      "lng": 11.354
+    },
+    {
+      "name": "Ortisei",
+      "lat": 46.574,
+      "lng": 11.672
+    },
+    {
+      "name": "Canazei",
+      "lat": 46.477,
+      "lng": 11.77
+    },
+    {
+      "name": "Corvara",
+      "lat": 46.55,
+      "lng": 11.873
+    }
+  ],
+  "other_rifugi_from_article": [
+    {
+      "name": "AlpiNN",
+      "area": "Plan de Corones",
+      "lat": 46.7406354,
+      "lng": 11.9556,
+      "google_place_id": "ChIJOeyZii4heEcR7UtRqEFMFeQ",
+      "drive_km": 80,
+      "drive_min": 85,
+      "note": "removed from the PNG on request"
+    },
+    {
+      "name": "Rifugio Capanna Presena",
+      "area": "Passo del Tonale",
+      "lat": 46.2277603,
+      "lng": 10.5798744,
+      "google_place_id": "ChIJX60KNbtXgkcRg5b_tS_JEHY",
+      "drive_km": 150,
+      "drive_min": 165
+    },
+    {
+      "name": "Rifugio Zoia",
+      "area": "Lanzada (SO)",
+      "lat": 46.3029852,
+      "lng": 9.9311719,
+      "google_place_id": "ChIJ40dqY6aFg0cRXy4HA36_tqA",
+      "drive_km": 250,
+      "drive_min": 240
+    },
+    {
+      "name": "Rifugio Mai Tardi",
+      "area": "Madesimo (SO)",
+      "lat": 46.4463157,
+      "lng": 9.3516626,
+      "google_place_id": "ChIJPX4BBnlfhEcRUudjKi-wP30",
+      "drive_km": 300,
+      "drive_min": 270
+    },
+    {
+      "name": "Chalet Etoile",
+      "area": "Cervinia/Valtournenche (AO)",
+      "lat": 45.9455803,
+      "lng": 7.6663143,
+      "google_place_id": "ChIJS9-rwqXMiEcRU71Tu5Eo9GI",
+      "drive_km": 420,
+      "drive_min": 285
+    },
+    {
+      "name": "Société",
+      "area": "Pila (AO)",
+      "lat": 45.6683873,
+      "lng": 7.3169002,
+      "google_place_id": "ChIJiU0ZcxIgiUcRFOeS3HVb2Ws",
+      "drive_km": 430,
+      "drive_min": 285
+    }
+  ],
+  "site": {
+    "intro": "Dove andare a pranzo da giovedì 29 ottobre a domenica 1 novembre: posti aperti in quei giorni, entro circa un'ora d'auto da Siusi, con una camminata facile prima. A fine ottobre nei masi della Valle Isarco è anche stagione di Törggelen.",
+    "checked": "Aperture controllate il 22 ottobre 2026. Il 1° novembre è festivo e subito dopo quasi tutti chiudono per la stagione: meglio telefonare prima.",
+    "footer": [
+      "Tempi di cammino indicativi, a passo tranquillo. A fine ottobre, sopra i 1.800 m, i tratti in ombra possono avere neve o ghiaccio: scarpe da trekking, e ramponcini se ha nevicato.",
+      "La cabinovia Siusi–Alpe di Siusi funziona fino al 2 novembre, dalle 8 alle 18.",
+      "I rifugi dell'articolo di Parto da Milano (Jimmi Hütte, Fredarola, Col Alt, Piz Boè) sono chiusi fino al 4–5 dicembre.",
+      "Confini, fiumi e strade della mappa: Natural Earth."
+    ],
+    "towns": [
+      {
+        "name": "Castelrotto",
+        "lat": 46.567,
+        "lng": 11.56
+      },
+      {
+        "name": "Compaccio",
+        "lat": 46.5417,
+        "lng": 11.6131
+      },
+      {
+        "name": "Fiè allo Sciliar",
+        "lat": 46.516,
+        "lng": 11.503
+      },
+      {
+        "name": "Ortisei",
+        "lat": 46.574,
+        "lng": 11.672
+      },
+      {
+        "name": "Chiusa",
+        "lat": 46.64,
+        "lng": 11.566
+      },
+      {
+        "name": "Villandro",
+        "lat": 46.631,
+        "lng": 11.538
+      },
+      {
+        "name": "Santa Maddalena",
+        "lat": 46.638,
+        "lng": 11.724
+      },
+      {
+        "name": "Bolzano",
+        "lat": 46.498,
+        "lng": 11.354
+      },
+      {
+        "name": "San Genesio",
+        "lat": 46.534,
+        "lng": 11.331
+      }
+    ],
+    "peaks": [
+      {
+        "name": "Sciliar",
+        "altitude_m": 2563,
+        "lat": 46.505,
+        "lng": 11.598
+      },
+      {
+        "name": "Sassolungo",
+        "altitude_m": 3181,
+        "lat": 46.517,
+        "lng": 11.733
+      },
+      {
+        "name": "Sass Rigais (Odle)",
+        "altitude_m": 3025,
+        "lat": 46.611,
+        "lng": 11.766
+      }
+    ],
+    "places": [
+      {
+        "id": "saltnerhuette",
+        "n": 1,
+        "name": "Saltnerhütte Tschapit",
+        "area": "Alpe di Siusi",
+        "province": "BZ",
+        "lat": 46.5138,
+        "lng": 11.6071,
+        "altitude_m": 1850,
+        "color": "#d1495b",
+        "maps_query": "Saltnerhütte Tschapit Seiser Alm",
+        "website": "https://www.miesnerhof.com/saltnerhuette.html",
+        "status": "open",
+        "status_note": "tutti i giorni, cucina 11:30–20",
+        "from_siusi": "cabinovia da Siusi a Compaccio",
+        "lunch": "Cucina casalinga: taglieri (Brettljause), dolci fatti in casa e le loro specialità, i canederli di mele e i piatti di grano saraceno. Prezzi non pubblicati.",
+        "walk": {
+          "start": "Compaccio, arrivo della cabinovia",
+          "time": "1 h 15",
+          "ascent": "+135 m",
+          "text": "Sentiero 7 verso il Panorama, poi il 10 al bivio e la stradina del 5, in leggera discesa fino alla baita. Circa 4 km, va bene anche col passeggino. Si torna per la stessa strada."
+        },
+        "notes": [
+          "Solo contanti.",
+          "È l'ultimo fine settimana della stagione: telefonate per conferma, +39 0471 706887 o +39 335 5871075. Il sito della baita dice «giugno–ottobre», l'Alpe di Siusi la dà aperta fino al 2 novembre.",
+          "Cabinovia Siusi–Compaccio: 21 € solo andata, 30 € andata e ritorno; ultima discesa alle 18."
+        ],
+        "photos": [
+          {
+            "src": "assets/photos/saltnerhuette-1.jpg",
+            "alt": "La baita di tronchi tra i fiori, con le guglie dello Sciliar dietro",
+            "credit": "seiseralm.it"
+          },
+          {
+            "src": "assets/photos/saltnerhuette-2.jpg",
+            "alt": "La facciata in tronchi con i fiori alle finestre e la terrazza",
+            "credit": "miesnerhof.com"
+          },
+          {
+            "src": "assets/photos/saltnerhuette-3.jpg",
+            "alt": "Tagliere di speck, salame e formaggio con lo Sciliar sullo sfondo",
+            "credit": "miesnerhof.com"
+          },
+          {
+            "src": "assets/photos/saltnerhuette-4.jpg",
+            "alt": "I prati del Tschapit in ottobre, con i fienili e lo Sciliar",
+            "credit": "Wolfgang Moroder / Wikimedia Commons (CC BY-SA 3.0)"
+          }
+        ],
+        "drive_min": 0,
+        "vibe": "Vecchia baita di tronchi, gestita da una famiglia, con i fiori alle finestre, lo steccato di legno e una terrazza al sole proprio sotto le guglie dello Sciliar. È la più autentica delle quattro. Sta sul sentiero principale per lo Sciliar, quindi non è isolata."
+      },
+      {
+        "id": "rauchhuette",
+        "n": 2,
+        "name": "Rauchhütte",
+        "area": "Alpe di Siusi",
+        "province": "BZ",
+        "lat": 46.5382,
+        "lng": 11.6601,
+        "altitude_m": 1850,
+        "color": "#edae49",
+        "maps_query": "Rauchhütte Seiser Alm",
+        "website": "http://rauchhuette.com/it/",
+        "status": "open",
+        "status_note": "gio–dom (chiuso il mercoledì), cucina 11:30–15:30",
+        "from_siusi": "cabinovia da Siusi a Compaccio",
+        "lunch": "Selvaggina, carne locale alla griglia, qualche piatto mediterraneo e più di 300 vini. Chi ci è stato consiglia il ragù di cervo e il Kaiserschmarrn. Prezzi sopra la media; nelle recensioni il servizio a volte è lento.",
+        "walk": {
+          "start": "Compaccio, arrivo della cabinovia",
+          "time": "1 h",
+          "ascent": "+90 m circa",
+          "text": "Sentiero 30 (Hans-und-Paula-Steger-Weg) verso est, quasi in piano tra i prati, con il Sassolungo davanti; l'ultimo tratto è sulla stradina per Saltria. Circa 3,7 km. Per tornare si rifà la stessa strada, oppure si prende il bus 11 dell'Alpe (fermata «Rauch», 4 €, corse nel pomeriggio fino alle 17:35 circa)."
+        },
+        "notes": [
+          "Non prendono prenotazioni per il pranzo e nei giorni di punta c'è da aspettare: telefonate per sapere com'è, +39 0471 727830.",
+          "Cabinovia Siusi–Compaccio: 21 € solo andata, 30 € andata e ritorno; ultima discesa alle 18. Dal 2 novembre la malga chiude per la stagione."
+        ],
+        "photos": [
+          {
+            "src": "assets/photos/rauchhuette-1.jpg",
+            "alt": "La malga tra i prati, con il Sassolungo dietro",
+            "credit": "rauchhuette.com"
+          },
+          {
+            "src": "assets/photos/rauchhuette-2.jpg",
+            "alt": "La stube con la stufa verde a olle",
+            "credit": "rauchhuette.com"
+          },
+          {
+            "src": "assets/photos/rauchhuette-3.jpg",
+            "alt": "Sala con tovaglie bianche e finestre sulle Dolomiti",
+            "credit": "rauchhuette.com"
+          },
+          {
+            "src": "assets/photos/rauchhuette-4.jpg",
+            "alt": "Larici gialli d'autunno vicino alla malga, con Sassolungo e Sassopiatto",
+            "credit": "Wolfgang Moroder / Wikimedia Commons (CC BY-SA 3.0)"
+          }
+        ],
+        "drive_min": 0,
+        "vibe": "Chalet di legno della stessa famiglia dal 1965, con una stube vera e la stufa verde a olle, e una terrazza che guarda dritta sul Sassolungo e sul Sassopiatto. Però è più ristorante elegante che malga: tovaglie bianche, legno chiaro rinnovato, tanti vini. Carino e curato, non rustico, e molto frequentato."
+      },
+      {
+        "id": "hofer-alpl",
+        "n": 3,
+        "name": "Hofer Alpl",
+        "area": "Fiè allo Sciliar",
+        "province": "BZ",
+        "lat": 46.5054,
+        "lng": 11.5352,
+        "altitude_m": 1364,
+        "color": "#00798c",
+        "maps_query": "Hofer Alpl Völs am Schlern",
+        "website": "https://www.hoferalpl.it",
+        "status": "open",
+        "status_note": "tutti i giorni, cucina 11–16",
+        "from_siusi": "fino al Laghetto di Fiè",
+        "lunch": "Il punto forte è la cucina, segnalata dalla guida Gault Millau. Il menù cambia ogni giorno: tagliere della casa, canederli spinaci e formaggio, gulasch di selvaggina della loro caccia, Kaiserschmarrn con mirtilli rossi e salsa di mele. Qualcuno nelle recensioni lo trova caro.",
+        "walk": {
+          "start": "Laghetto di Fiè (parcheggio 6 € al giorno)",
+          "time": "1 h 30",
+          "ascent": "+417 m",
+          "text": "Sentiero 1 nel bosco, passando per il laghetto Huber, fino a Malga Tuff (circa 45 min); poi altri 30–45 min seguendo i cartelli per l'Hofer Alpl. È la camminata con più salita delle quattro. Al ritorno si può fare il giro per Umes (sentieri 3 e 2): 8,8 km in tutto, +518 m, circa 2 h 50."
+        },
+        "notes": [
+          "A pranzo prenotano solo per gruppi da 8 persone in su: +39 349 400 85 60. Preferiscono il contante.",
+          "Malga Tuff, a metà strada, è aperta tutti i giorni fino all'8 novembre (9–18). Il prato sotto lo Sciliar è bello; la baita è grande e frequentata, va bene per un caffè.",
+          "È il più basso dei quattro: la scelta più sicura se nevica."
+        ],
+        "photos": [
+          {
+            "src": "assets/photos/hofer-alpl-1.jpg",
+            "alt": "L'Hofer Alpl al tramonto, con la vista sulla valle",
+            "credit": "hoferalpl.it"
+          },
+          {
+            "src": "assets/photos/hofer-alpl-2.jpg",
+            "alt": "Edificio in legno con scandole e gerani",
+            "credit": "seiseralm.it"
+          },
+          {
+            "src": "assets/photos/hofer-alpl-3.jpg",
+            "alt": "La stube in legno chiaro",
+            "credit": "seiseralm.it"
+          },
+          {
+            "src": "assets/photos/hofer-alpl-4.jpg",
+            "alt": "Il laghetto Huber lungo la camminata, con lo Sciliar",
+            "credit": "Wolfgang Moroder / Wikimedia Commons (CC BY-SA 3.0)"
+          }
+        ],
+        "vibe": "Non è una baita piccola e antica: è una casa di montagna di famiglia, ricostruita nei primi anni 2000, curata e pulita. La stube è accogliente ma nuova. La terrazza guarda a ovest sulla valle, non sullo Sciliar. Ci si arriva solo a piedi, quindi è tranquilla.",
+        "drive_min": 15
+      },
+      {
+        "id": "sofie",
+        "name": "Baita Sofie",
+        "area": "Seceda, Val Gardena",
+        "province": "BZ",
+        "lat": 46.5977,
+        "lng": 11.7272,
+        "altitude_m": 2410,
+        "color": "#2b9348",
+        "maps_query": "Baita Sofie Seceda",
+        "website": "https://www.seceda.com",
+        "drive_min": 30,
+        "from_siusi": "fino a Ortisei, poi funivia Seceda",
+        "status": "open",
+        "status_note": "tutti i giorni, 8–18",
+        "vibe": "Rifugio moderno in legno e vetro, con il camino e un prato pieno di sdraio. Il punto è la vista: le guglie delle Odle e la cresta del Seceda, tra i posti più fotografati delle Dolomiti. Piacevole, ma non è una baita antica.",
+        "lunch": "Piatti del giorno, tra cui uno biologico, una buona cantina e un gin della casa alle 13 erbe.",
+        "walk": {
+          "start": "Arrivo della funivia Seceda (da Ortisei, cambio a Furnes)",
+          "time": "25 min",
+          "ascent": "+60 m",
+          "text": "In un quarto d'ora si arriva al punto panoramico sulla cresta del Seceda, poi altri 10 minuti fino alla baita. Volendo si allunga di un'ora sui prati. A 2.400 m può esserci neve: scarpe adatte. Si scende con la funivia."
+        },
+        "notes": [
+          "Prenotazione consigliata: +39 335 5271240 oppure online su seceda.com.",
+          "Funivia Ortisei–Furnes–Seceda aperta fino al 2 novembre; prezzi e orari su seceda.com."
+        ],
+        "photos": [
+          {
+            "src": "assets/photos/sofie-1.jpg",
+            "alt": "La baita con le sdraio sul prato e le guglie del Seceda",
+            "credit": "seceda.com"
+          },
+          {
+            "src": "assets/photos/sofie-2.jpg",
+            "alt": "La sala con il camino e le vetrate",
+            "credit": "seceda.com"
+          },
+          {
+            "src": "assets/photos/sofie-3.jpg",
+            "alt": "Le Odle viste dal Seceda",
+            "credit": "Jacopo Da Col / Wikimedia Commons (CC BY-SA 4.0)"
+          }
+        ],
+        "n": 4
+      },
+      {
+        "id": "larmhof",
+        "name": "Larmhof",
+        "area": "San Maurizio, Villandro",
+        "province": "BZ",
+        "lat": 46.6236,
+        "lng": 11.5337,
+        "altitude_m": 785,
+        "color": "#6a4c93",
+        "maps_query": "Larmhof Villanders Sauders",
+        "website": "https://www.larmhof.it",
+        "drive_min": 30,
+        "from_siusi": "fino a Villandro",
+        "status": "open",
+        "status_note": "mar–dom da mezzogiorno (chiuso il lunedì)",
+        "vibe": "Maso vero: citato già nel 1344 e della famiglia Winkler dal 1795, con una stube in legno di 200 anni. Le stube sono due, con circa 70 posti, e ci si arriva anche in macchina, quindi nel weekend può essere vivace: chiedete la stube vecchia.",
+        "lunch": "Törggelen, il pranzo d'autunno nei masi: zuppa d'orzo, canederli in brodo, Schlutzkrapfen agli spinaci, salsiccia fatta in casa con crauti, puntine, frittelle di patate, speck, formaggio grigio e castagne. Vino loro: Müller-Thurgau, Schiava, Zweigelt.",
+        "walk": {
+          "start": "Villandro paese (parcheggio)",
+          "time": "45 min",
+          "ascent": "+150 m al ritorno",
+          "text": "Sul Keschtnweg, il sentiero delle castagne, verso sud: nel vallone del Mühlbach fino alla chiesetta di San Maurizio e poi al maso. Tempi stimati, non ufficiali. Il vallone è stato danneggiato dal maltempo nel 2019–20: controllate che il sentiero sia aperto. Si torna per la stessa strada."
+        },
+        "notes": [
+          "Prenotazione obbligatoria: +39 0472 843163, WhatsApp +39 333 302 2071.",
+          "Il Törggelen è un pranzo lungo e abbondante: non prendete impegni subito dopo."
+        ],
+        "photos": [
+          {
+            "src": "assets/photos/larmhof-1.jpg",
+            "alt": "Il maso con i gerani ai balconi",
+            "credit": "larmhof.it"
+          },
+          {
+            "src": "assets/photos/larmhof-2.jpg",
+            "alt": "La stube rivestita di legno",
+            "credit": "larmhof.it"
+          },
+          {
+            "src": "assets/photos/larmhof-3.jpg",
+            "alt": "Castagne arrostite",
+            "credit": "larmhof.it"
+          },
+          {
+            "src": "assets/photos/larmhof-4.jpg",
+            "alt": "Schlutzkrapfen agli spinaci",
+            "credit": "larmhof.it"
+          }
+        ],
+        "n": 5
+      },
+      {
+        "id": "moar-zu-viersch",
+        "name": "Moar zu Viersch",
+        "area": "Verdignes, Chiusa",
+        "province": "BZ",
+        "lat": 46.6529,
+        "lng": 11.5774,
+        "altitude_m": 863,
+        "color": "#8a5a44",
+        "maps_query": "Moar zu Viersch Verdings",
+        "website": "https://www.moarzuviersch.com",
+        "drive_min": 35,
+        "from_siusi": "fino a Chiusa",
+        "status": "open",
+        "status_note": "ven–dom da mezzogiorno; giovedì chiuso",
+        "vibe": "Il più da cartolina: maso documentato dal IX secolo, su un poggio tra i castagni sopra il monastero di Sabiona, con una stube antica. Apre solo nel fine settimana ed è molto richiesto; d'estate fa anche da location per eventi, quindi è un po' curato.",
+        "lunch": "Törggelen: zuppa d'orzo, Schlutzkrapfen, salsiccia della casa con crauti, castagne e Krapfen, con vino e succhi fatti da loro.",
+        "walk": {
+          "start": "Chiusa (parcheggi in paese)",
+          "time": "1 h 15 – 1 h 30",
+          "ascent": "+350 m",
+          "text": "La passeggiata classica della zona: dal centro di Chiusa sul sentiero 1 fino al monastero di Sabiona, lastricato e a gradini, poi Pardell e Viersch. Nessun tratto esposto. Più in piano: da Velturno sul Keschtnweg, passando per la chiesetta di Sant'Antonio, 45–60 min. Si torna per la stessa strada."
+        },
+        "notes": [
+          "Prenotazione obbligatoria: +39 0472 855489 o +39 333 302 2446.",
+          "La strada per Verdignes è stretta."
+        ],
+        "photos": [
+          {
+            "src": "assets/photos/moar-zu-viersch-1.jpg",
+            "alt": "Il maso tra prati e alberi, sopra la valle",
+            "credit": "Konrad Faltner / moarzuviersch.com"
+          },
+          {
+            "src": "assets/photos/moar-zu-viersch-2.jpg",
+            "alt": "Il cortile del maso",
+            "credit": "Konrad Faltner / moarzuviersch.com"
+          },
+          {
+            "src": "assets/photos/moar-zu-viersch-3.jpg",
+            "alt": "L'insegna del Buschenschank con i gerani",
+            "credit": "Konrad Faltner / moarzuviersch.com"
+          },
+          {
+            "src": "assets/photos/moar-zu-viersch-4.jpg",
+            "alt": "Il monastero di Sabiona sulla rupe, lungo la camminata",
+            "credit": "Rolf Kranz / Wikimedia Commons (CC BY-SA 4.0)"
+          }
+        ],
+        "n": 6
+      },
+      {
+        "id": "geisleralm",
+        "n": 7,
+        "name": "Geisleralm",
+        "area": "Val di Funes",
+        "province": "BZ",
+        "lat": 46.621,
+        "lng": 11.7495,
+        "altitude_m": 1996,
+        "color": "#30638e",
+        "maps_query": "Geisleralm Villnöß",
+        "website": "https://www.geisleralm.com",
+        "status": "open",
+        "status_note": "gio–dom (chiuso il lunedì)",
+        "from_siusi": "fino a Malga Zannes",
+        "lunch": "Cucina di casa, con prodotti in gran parte della loro fattoria: zuppa al formaggio grigio, canederli con gulasch, agnello e selvaggina, Kaiserschmarrn, strudel e torte. Prezzi un po' sopra la media.",
+        "walk": {
+          "start": "Parcheggio di Malga Zannes (1.680 m)",
+          "time": "1 h 20",
+          "ascent": "+320–360 m",
+          "text": "La via più facile è la strada forestale verso la Dusleralm, sentieri 36 e poi 34 (circa 3,8 km, va bene anche col passeggino). Al ritorno si può prendere il sentiero Adolf Munkel (n. 35), sotto le pareti delle Odle: circa mezz'ora in più."
+        },
+        "notes": [
+          "Parcheggio a Zannes: 12 € al giorno, da prenotare online (posti limitati). Se è pieno si lascia l'auto a Ranui e si sale con il bus 330.",
+          "Prenotano solo per gruppi da 15 persone in su. Domenica 1 novembre sarà pieno: arrivate presto.",
+          "Il sito non indica l'anno della stagione: chiamate per conferma, +39 339 604 4685."
+        ],
+        "photos": [
+          {
+            "src": "assets/photos/geisleralm-1.jpg",
+            "alt": "La Geisleralm sul prato, con un laghetto davanti e le Odle dietro",
+            "credit": "Simonbed80 / Wikimedia Commons (CC BY-SA 4.0)"
+          },
+          {
+            "src": "assets/photos/geisleralm-2.jpg",
+            "alt": "La stube in legno con la stufa a olle",
+            "credit": "geisleralm.com"
+          },
+          {
+            "src": "assets/photos/geisleralm-3.jpg",
+            "alt": "Kaiserschmarrn con macedonia, marmellata e crema alla vaniglia",
+            "credit": "geisleralm.com"
+          },
+          {
+            "src": "assets/photos/geisleralm-4.jpg",
+            "alt": "Sdraio in legno sul prato davanti alla baita, con le Odle",
+            "credit": "geisleralm.com"
+          }
+        ],
+        "vibe": "Baita in legno con stube e stufa a olle, una grande terrazza e le sdraio sul prato proprio sotto le Odle. È bella davvero, ma è grande e molto frequentata, con tante famiglie: non è una baita nascosta.",
+        "drive_min": 50
+      },
+      {
+        "id": "langfenn",
+        "name": "Langfenn",
+        "area": "Salto, sopra Bolzano",
+        "province": "BZ",
+        "lat": 46.5851,
+        "lng": 11.2816,
+        "altitude_m": 1527,
+        "color": "#c05621",
+        "maps_query": "Gasthaus Langfenn Mölten",
+        "website": "http://www.langfenn.it",
+        "drive_min": 60,
+        "from_siusi": "fino a San Genesio",
+        "status": "open",
+        "status_note": "tutti e 4 i giorni (chiuso il mercoledì), cucina 11:30–16",
+        "vibe": "Locanda in una vecchia casa contadina rivestita di legno, edificio tutelato, accanto alla chiesetta romanica di San Giacomo, sul punto più alto del Salto. Intorno solo prati, larici e cavalli avelignesi, nessun impianto. A fine ottobre i larici sono gialli.",
+        "lunch": "Piatti tradizionali altoatesini con prodotti locali, in parte della loro fattoria, e torte fatte in casa. Il menù non è online.",
+        "walk": {
+          "start": "Gasthof Edelweiss, sopra San Genesio",
+          "time": "1 h 30",
+          "ascent": "+207 m",
+          "text": "Sentiero 1 attraverso i prati di larici del Salto, 5,4 km, senza tratti esposti. Si torna per la stessa strada. Versione corta: dal parcheggio Schermoos, sul lato di Meltina, 15–20 min."
+        },
+        "notes": [
+          "Prenotate per sabato e domenica: +39 352 0528330.",
+          "Alternativa nella stessa zona: la Malga di Meltina (Möltner Kaser), più semplice e rustica, aperta tutti i giorni 8–17: +39 349 1243720."
+        ],
+        "photos": [
+          {
+            "src": "assets/photos/langfenn-1.jpg",
+            "alt": "La locanda e la chiesetta di San Giacomo sul prato",
+            "credit": "Cm95 / Wikimedia Commons (CC BY-SA 3.0)"
+          },
+          {
+            "src": "assets/photos/langfenn-2.jpg",
+            "alt": "Il sentiero sul prato verso la locanda",
+            "credit": "Besenbinder / Wikimedia Commons (CC BY-SA 3.0)"
+          },
+          {
+            "src": "assets/photos/langfenn-3.jpg",
+            "alt": "La chiesetta romanica di San Giacomo",
+            "credit": "RudolfSimon / Wikimedia Commons (CC BY-SA 3.0)"
+          },
+          {
+            "src": "assets/photos/langfenn-4.jpg",
+            "alt": "I larici del Salto in autunno, con una panchina",
+            "credit": "Noclador / Wikimedia Commons (CC BY-SA 3.0)"
+          }
+        ],
+        "n": 8
+      }
+    ]
+  }
+}
