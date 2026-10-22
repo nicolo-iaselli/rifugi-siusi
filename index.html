@@ -235,7 +235,7 @@ dialog.lightbox form button { font: inherit; font-size: 0.875rem; padding: 4px 1
 
   let data, geo;
   try {
-    const get = p => fetch(p).then(r => { if (!r.ok) throw new Error(p); return r.json(); });
+    const get = p => fetch(p, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(p); return r.json(); });
     [data, ...geo] = await Promise.all(["data/rifugi.json", "data/provinces.geojson", "data/rivers.geojson", "data/roads.geojson"].map(get));
   } catch (e) {
     $("#list").innerHTML = `<div class="load-error">Non riesco a caricare i dati (<code>data/rifugi.json</code>). Se hai aperto il file dal disco, avvia un server nella cartella del progetto: <code>python3 -m http.server</code>.</div>`;
